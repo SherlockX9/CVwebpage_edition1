@@ -1,0 +1,398 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* background-color: #1efae4; */
+
+}
+.page{
+    overflow: hidden; /* Hide scrollbars */
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+h1,h2{
+    margin-bottom: 15px;
+}
+
+.container1{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background: rgb(66, 209, 207);
+    color: #fff;
+    height: 60px;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.navbar .container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a:hover{
+    color:grey;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.main-header{
+    padding-top: 3%;
+    min-height: 400px;
+    position: relative;
+    background-image: url('../images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.items .container1{
+  
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.items{
+    
+   
+    background-image: url('../images/im3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+   
+}
+
+.item{
+ 
+    flex: 1;
+    background:rgb(0, 0, 0) ;
+    border-radius: 7px;
+    margin: 25px 15px;
+    padding: 20px 20px;
+    text-align:center;
+   
+    color: white;
+   
+}
+.container1 a{
+    text-decoration: none;
+    background-color: none;
+    color: #fff;
+    
+}
+
+
+button {
+    border:none;
+    text-decoration: none;
+    background-color:transparent;
+    outline:none;
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+ }
+
+.skill{
+    list-style: none;
+  
+}
+.main-header2{
+    padding-top: 2%;
+    /* background-color: rgb(233, 240, 234); */
+    background-color: white;
+}
+
+
+/* .education{
+    background-image: url('../images/img11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;  
+} */
+/* .education{
+    background-color: rgb(66, 209, 207);
+ } */
+
+.pastEd{
+    padding-top: 20px;
+    background-color: white;
+    padding-bottom: 330px;
+}
+
+.endingImage{
+    background-color: rgb(66, 209, 207);
+    height: 140px;
+   
+}
+
+.subBody{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.firstThreeSkills{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.lastThreeSkills{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.programmingSkills{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.techSkillsPart{
+    padding-top: 100px;
+    padding-bottom: 380px;
+}
+
+.skilled{
+    list-style:none;
+    line-height: 1.9em;
+}
+
+.main-header3{
+    padding-top: 3%;
+    min-height: 630px;
+    position: relative;
+    background-image: url('../images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.main-header5{
+    padding-top: 3%;
+    min-height: 200px;
+    position: relative;
+    background-image: url('../images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.part1{
+    list-style: outside;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.part2{
+    list-style: outside;
+    padding-bottom: 16.5%;
+    padding-top: 10px;
+}
+
+.pageX h4{
+    padding-top: 20px;
+}
+
+.pageX{
+    background-color: rgb(66, 209, 207);
+}
+
+ .pictures1{
+   padding-left: 50px; 
+}  
+ .imgg{
+     display:inline-flex;
+     
+     height: 240px;
+     width: 360px;
+} 
+.imgg1{
+    display:block;
+    max-width: 100%;
+}
+
+#projects{
+    padding-top: 2%;
+}
+.project2{
+    padding-top: 30px;
+}
+.project3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+
+  
+  .invalid {
+    border: 1px solid red;
+  }
+  
+  .mb-2 {
+    margin-bottom: 20px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 40px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+ 
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 280px;
+    border: 1px solid rgb(0, 114, 66);
+    font-size: 12px;
+    outline: none;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  .form-control {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  
+  label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .hide {
+    opacity: 0;
+  }
+  
+  textarea {
+    width: 560px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    height: 150px;
+    font-size: 18px;
+  }
+  
+ .forButton button {
+    color: black;
+    padding: 20px;
+    border: 1px solid rgb(0, 114, 66);
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: rgb(0, 114, 66);
+  }
+  
+  .forButton button:hover {
+    background-image: linear-gradient(
+      to right,
+      rgb(0, 114, 66) 0%,
+      rgb(4, 109, 91) 100%
+    );
+    color: white;
+  }
+  
+  form {
+    padding: 40px;
+  }
+  
+  hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 1px;
+    border: none;
+    background-color: rgb(0, 114, 66);
+  }
+
+.profile{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2.2em;
+    
+}
+
+.profile a{
+    color: blue
+    
+}
+
+.profile a:hover{
+    color: rgb(74, 208, 8);
+}
+.profile2 a{
+    font-size: 15px;
+}
+
+.dateandTimePicker{
+    display: flex;
+    justify-content:space-between
+}
+.email1{
+    margin-top: 30px;
+}
+
+/* 
+.endingImageX{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(66, 209, 207);
+}
+.endingImageX1{
+    position: fixed;
+    bottom: 0px;
+} */
+
+/* .endingImage{ 
+    background: url('../images/img11.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+  } */
+
