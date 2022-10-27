@@ -74,6 +74,36 @@ h1,h2{
     background-size: cover;
 }
 
+.main-header button{
+    margin-top: 5px;
+    border-radius: 8px;
+    border: #333;
+    border: 1px solid;
+    padding: 15px;
+    background-color: rgb(1, 158, 255);
+}
+
+.main-header button:hover{
+    background-color: rgb(241, 14, 14);
+}
+.main-header h5{
+    font-family:monospace;
+    color: rgb(255, 255, 255);
+}
+.main-header p{
+    font-size: 16px;
+}
+
+#firstandroid{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.currentEd p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
 .items .container1{
   
     padding-top: 150px;
@@ -150,6 +180,11 @@ button {
     padding-bottom: 330px;
 }
 
+.pastEd p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
 .endingImage{
     background-color: rgb(66, 209, 207);
     height: 140px;
@@ -217,10 +252,15 @@ button {
 
 .part2{
     list-style: outside;
-    padding-bottom: 16.5%;
+    padding-bottom: 2.8%;
     padding-top: 10px;
 }
 
+.part3{
+    list-style: outside;
+    padding-bottom: 15%;
+    
+}
 .pageX h4{
     padding-top: 20px;
 }
@@ -350,18 +390,24 @@ button {
   }
 
 .profile{
+    padding-top: 10px;
     font-family:Arial, Helvetica, sans-serif;
     line-height: 2.2em;
     
 }
 
+.profile p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
 .profile a{
-    color: blue
+    color: rgb(4, 4, 187)
     
 }
 
 .profile a:hover{
-    color: rgb(74, 208, 8);
+    color: rgb(6, 182, 94);
 }
 .profile2 a{
     font-size: 15px;
