@@ -26,10 +26,28 @@ h1,h2{
     margin-bottom: 15px;
 }
 
+.alinks{
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    border-radius: 2px;
+    background-color:rgb(19, 18, 18);
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
 .container1{
     max-width: 80%;
     margin: 0 auto;
     padding: 0 30px;
+}
+
+.containerOne{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .navbar{
@@ -112,29 +130,27 @@ h1,h2{
 
 }
 
+#indexbody, #indexhtml{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+#indexbody > * {
+    flex-shrink: 0;
+}
+
 .items{
-    
-   
+    flex-grow: 1;
+    bottom:0px;
+    min-height: 400px;
     background-image: url('../images/im3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
    
    
 }
 
-.item{
- 
-    flex: 1;
-    background:rgb(0, 0, 0) ;
-    border-radius: 7px;
-    margin: 25px 15px;
-    padding: 20px 20px;
-    text-align:center;
-   
-    color: white;
-   
-}
 .container1 a{
     text-decoration: none;
     background-color: none;
@@ -185,9 +201,12 @@ button {
     font-size: 16px;
 }
 
-.endingImage{
-    background-color: rgb(66, 209, 207);
-    height: 140px;
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+    background: #6cf;
    
 }
 
